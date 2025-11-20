@@ -1,0 +1,14 @@
+{
+    "recipes": [
+        {
+            "id": "sheet-pan-fajitas",
+            "title": "Sheet-Pan Chicken Fajitas",
+            "description": "blah blah blah"
+        },
+        {
+            "id": "baked-pasta",
+            "title": "Baked Pasta with Veggies",
+            "description": "blah blah blah"
+        }
+    ]
+}
