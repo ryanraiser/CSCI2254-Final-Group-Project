@@ -3,12 +3,57 @@
         {
             "id": "sheet-pan-fajitas",
             "title": "Sheet-Pan Chicken Fajitas",
-            "description": "blah blah blah"
+            "description": "A quick and flavorful sheet-pan chicken fajita recipe that’s perfect for busy weeknights or serving a group. The vegetables caramelize beautifully, and the seasoning blend gives everything a smoky, tangy finish.",
+            "details": "test",
+            "instructions": "Preheat oven to 425°F (220°C). Slice chicken into thin strips. Slice bell peppers and onion. Place chicken, peppers, and onion on a sheet pan. Drizzle with olive oil and sprinkle fajita seasoning. Toss everything together so the seasoning coats evenly. Spread into a single layer for even roasting. Roast for 18–22 minutes, until chicken is cooked and vegetables soften. Squeeze fresh lime juice over the pan. Serve in warm flour tortillas with your favorite toppings.",
+            "ingredients": [
+                {"item": "Chicken Breast", "qty": "1"},
+                {"item": "Onion", "qty": "3"}
+            ]
         },
         {
             "id": "baked-pasta",
             "title": "Baked Pasta with Veggies",
-            "description": "blah blah blah"
+            "description": "description",
+            "details": "test",
+            "instructions": "cooking instructions here",
+            "ingredients": [
+                {"item": "Chicken Breast", "qty": "1"},
+                {"item": "Onion", "qty": "3"}
+            ]
+        },
+        {
+            "id": "recipe-3",
+            "title": "Recipe 3",
+            "description": "description",
+            "details": "test",
+            "instructions": "cooking instructions here",
+            "ingredients": [
+                {"item": "Chicken Breast", "qty": "1"},
+                {"item": "Onion", "qty": "3"}
+            ]
+        },
+        {
+            "id": "recipe-4",
+            "title": "Recipe 4",
+            "description": "description",
+            "details": "test",
+            "instructions": "cooking instructions here",
+            "ingredients": [
+                {"item": "Chicken Breast", "qty": "1"},
+                {"item": "Onion", "qty": "3"}
+            ]
+        },
+        {
+            "id": "recipe-5",
+            "title": "Recipe 5",
+            "description": "description",
+            "details": "test",
+            "instructions": "cooking instructions here",
+            "ingredients": [
+                {"item": "Chicken Breast", "qty": "1"},
+                {"item": "Onion", "qty": "3"}
+            ]
         }
     ]
 }
