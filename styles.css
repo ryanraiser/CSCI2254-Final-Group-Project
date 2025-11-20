@@ -11,7 +11,7 @@ html {
 .navbar {
   position: fixed;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
 
   display: flex;
@@ -41,10 +41,9 @@ body {
   background-attachment: fixed;
 }
 
-.hero {
+.welcome {
   height: 100vh;
   width: 100%;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,29 +52,29 @@ body {
   background: none;
 }
 
-.hero-content {
+.welcome-content {
   color: white;
-  padding: 40px 20px;
+  padding: 60px 0px;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
 }
 
-.hero-content h2 {
+.welcome-content h2 {
   font-size: 50px;
   color: white;
   margin-bottom: 20px;
 }
 
+/* ======= FULL RECIPE SECTION ======= */
+
 .recipes {
-  padding: 120px 20px 120px;
+  padding: 120px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
-  width: 100%;
-  text-align: center;
 
   color: white;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
@@ -89,18 +88,32 @@ body {
   font-size: 20px;
 }
 
-.r {
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
-  padding: 50px;
-  border-radius: 16px;
+/* from assignment 8 */
+.search input {
+  min-width: 300px;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
+  margin: 30px 0 30px 0;
+}
 
+/* ======= CARD CONTAINER ======= */
+
+.recipeList {
+  padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+  border-radius: 16px;
 }
+
+/* ======= INDIVIDUAL RECIPE CARDS ======= */
 
 .card {
   max-width: 700px;
@@ -112,6 +125,9 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -127,17 +143,11 @@ body {
   font-size: 18px;
 }
 
-.search input {
-  min-width: 500px;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  border: 1px solid #eeeeee;
-  margin: 30px 0 30px 0;
-}
-
-.desc {
-  margin-bottom: 10px;
+.card img {
+  width: 60%;
+  margin: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+  border-radius: 16px;
 }
 
 h3 {
@@ -146,6 +156,7 @@ h3 {
 
 .servings-input {
   margin-bottom: 10px;
+  max-width: 200px;
 }
 
 .ing-list {
