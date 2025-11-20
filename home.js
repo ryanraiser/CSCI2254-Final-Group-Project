@@ -7,7 +7,7 @@ fetch("recipes.json")
 
 function createRecipe(rec) {
   return `
-    <div class="r">
+    <div class="card">
         <h2>${rec.title}</h2>
         <p>${rec.description}</p>
     </div>
@@ -15,7 +15,7 @@ function createRecipe(rec) {
 }
 
 function renderRecipes(recipeArray) {
-  const recipes = document.querySelector(".recipes");
+  const recipes = document.querySelector(".r");
   recipes.innerHTML = "";
   recipeArray.forEach((recipe) => {
     recipes.innerHTML += createRecipe(recipe);
