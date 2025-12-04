@@ -1,64 +1,227 @@
 {
     "recipes": [
-        {
-            "id": "sheet-pan-fajitas",
-            "title": "Sheet-Pan Chicken Fajitas",
-            "description": "A quick and flavorful sheet-pan chicken fajita recipe that’s perfect for busy weeknights or serving a group. The vegetables caramelize beautifully, and the seasoning blend gives everything a smoky, tangy finish.",
-            "image": "images/fajitas.jpg",
-            "details": "test",
-            "instructions": "Preheat oven to 425°F (220°C). Slice chicken into thin strips. Slice bell peppers and onion. Place chicken, peppers, and onion on a sheet pan. Drizzle with olive oil and sprinkle fajita seasoning. Toss everything together so the seasoning coats evenly. Spread into a single layer for even roasting. Roast for 18–22 minutes, until chicken is cooked and vegetables soften. Squeeze fresh lime juice over the pan. Serve in warm flour tortillas with your favorite toppings.",
-            "ingredients": [
-                {"item": "Chicken Breast", "qty": "1"},
-                {"item": "Onion", "qty": "3"}
-            ]
-        },
-        {
-            "id": "baked-pasta",
-            "title": "Baked Pasta with Veggies",
-            "description": "description",
-            "image": "images/placeholder.jpg",
-            "details": "test",
-            "instructions": "cooking instructions here",
-            "ingredients": [
-                {"item": "Chicken Breast", "qty": "1"},
-                {"item": "Onion", "qty": "3"}
-            ]
-        },
-        {
-            "id": "recipe-3",
-            "title": "Recipe 3",
-            "description": "description",
-            "image": "images/placeholder.jpg",
-            "details": "test",
-            "instructions": "cooking instructions here",
-            "ingredients": [
-                {"item": "Chicken Breast", "qty": "1"},
-                {"item": "Onion", "qty": "3"}
-            ]
-        },
-        {
-            "id": "recipe-4",
-            "title": "Recipe 4",
-            "description": "description",
-            "image": "images/placeholder.jpg",
-            "details": "test",
-            "instructions": "cooking instructions here",
-            "ingredients": [
-                {"item": "Chicken Breast", "qty": "1"},
-                {"item": "Onion", "qty": "3"}
-            ]
-        },
-        {
-            "id": "recipe-5",
-            "title": "Recipe 5",
-            "description": "description",
-            "image": "images/placeholder.jpg",
-            "details": "test",
-            "instructions": "cooking instructions here",
-            "ingredients": [
-                {"item": "Chicken Breast", "qty": "1"},
-                {"item": "Onion", "qty": "3"}
-            ]
-        }
+      {
+        "id": "lemon-garlic-salmon",
+        "title": "Lemon Garlic Baked Salmon",
+        "description": "A bright, flavorful salmon baked with lemon, garlic, and herbs. Perfect for healthy weeknight dinners or entertaining guests.",
+        "image": "images/lemon-salmon.jpeg",
+        "details": "test",
+        "instructions": "Preheat oven to 400°F (204°C). Place salmon on a lined baking sheet. In a small bowl, mix melted butter, minced garlic, lemon juice, salt, pepper, and dill. Brush over salmon. Top with lemon slices. Bake 12–15 minutes until flaky. Garnish with parsley before serving.",
+        "occasion": ["Healthy", "Dinner Party"],
+        "prep": "15",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.25", "item": "lb Salmon Fillet" },
+          { "qty": "0.50", "item": "tbsp Butter" },
+          { "qty": "0.75", "item": "clove(s) Garlic" },
+          { "qty": "0.25", "item": "whole Lemon" },
+          { "qty": "0.125", "item": "tsp Salt" },
+          { "qty": "0.125", "item": "tsp Black Pepper" },
+          { "qty": "0.25", "item": "tsp Fresh Dill" },
+          { "qty": "0.25", "item": "handful Fresh Parsley" }
+        ]
+      },
+  
+      {
+        "id": "chicken-alfredo",
+        "title": "Creamy Chicken Alfredo",
+        "description": "Rich and comforting pasta tossed in a homemade Alfredo sauce with tender pan-seared chicken.",
+        "image": "images/chicken-alfredo.jpg",
+        "details": "test",
+        "instructions": "Cook fettuccine according to package directions. Season chicken, sear until golden, then slice. Make sauce by melting butter, adding garlic, cream, and parmesan. Toss with pasta and chicken.",
+        "occasion": ["Comfort", "Family Dinner"],
+        "prep": "30",
+        "difficulty": "Medium",
+        "ingredients": [
+          { "qty": "0.50", "item": "piece(s) Chicken Breast" },
+          { "qty": "3.00", "item": "oz Fettuccine" },
+          { "qty": "1.00", "item": "tbsp Butter" },
+          { "qty": "1.00", "item": "clove(s) Garlic" },
+          { "qty": "0.33", "item": "cup(s) Heavy Cream" },
+          { "qty": "0.25", "item": "cup(s) Parmesan Cheese" },
+          { "qty": "0.25", "item": "tsp Salt" },
+          { "qty": "0.25", "item": "tsp Black Pepper" }
+        ]
+      },
+  
+      {
+        "id": "veggie-buddha-bowl",
+        "title": "Roasted Veggie Buddha Bowl",
+        "description": "A colorful, nutrient-dense bowl filled with roasted vegetables, quinoa, and a lemon-tahini dressing.",
+        "image": "images/buddha-bowl.jpg",
+        "details": "test",
+        "instructions": "Roast vegetables at 425°F (218°C). Cook quinoa. Mix tahini, lemon juice, garlic, and water for dressing. Assemble bowl with roasted veggies, quinoa, greens, and dressing.",
+        "occasion": ["Healthy", "Meal Prep"],
+        "prep": "35",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.50", "item": "large Sweet Potato" },
+          { "qty": "0.50", "item": "can Chickpeas" },
+          { "qty": "1.50", "item": "cup(s) Broccoli Florets" },
+          { "qty": "0.50", "item": "cup(s) Quinoa (dry)" },
+          { "qty": "1.50", "item": "tbsp Olive Oil" },
+          { "qty": "1.50", "item": "tbsp Tahini" },
+          { "qty": "1.00", "item": "tbsp Lemon Juice" },
+          { "qty": "0.50", "item": "clove(s) Garlic" },
+          { "qty": "1.00", "item": "cup(s) Mixed Greens" },
+          { "qty": "0.25", "item": "tsp Salt" },
+          { "qty": "0.25", "item": "tsp Black Pepper" }
+        ]
+      },
+  
+      {
+        "id": "shrimp-tacos",
+        "title": "Spicy Shrimp Tacos",
+        "description": "Zesty shrimp tacos with crunchy slaw and creamy chipotle sauce, ready in minutes.",
+        "image": "images/shrimp-tacos.jpg",
+        "details": "test",
+        "instructions": "Season shrimp, sear until cooked. Mix slaw with lime and salt. Stir chipotle into sour cream. Assemble tacos with shrimp, slaw, and crema.",
+        "occasion": ["Quick", "Gameday"],
+        "prep": "20",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.50", "item": "lb Shrimp (peeled and deveined)" },
+          { "qty": "4.00", "item": "piece(s) Corn Tortillas" },
+          { "qty": "0.50", "item": "tsp Chili Powder" },
+          { "qty": "0.50", "item": "tsp Cumin" },
+          { "qty": "0.50", "item": "tsp Garlic Powder" },
+          { "qty": "0.50", "item": "whole Lime" },
+          { "qty": "1.00", "item": "cup(s) Shredded Cabbage" },
+          { "qty": "1.50", "item": "tbsp Sour Cream" },
+          { "qty": "0.50", "item": "tsp Chipotle in Adobo" },
+          { "qty": "0.25", "item": "tsp Salt" }
+        ]
+      },
+  
+      {
+        "id": "beef-chili",
+        "title": "Hearty Beef Chili",
+        "description": "A warm and filling chili loaded with ground beef, beans, tomatoes, and bold spices.",
+        "image": "images/beef-chili.jpg",
+        "details": "test",
+        "instructions": "Brown beef, add onions and garlic. Add beans, tomatoes, broth, spices. Simmer 30–40 minutes.",
+        "occasion": ["Cold Weather", "Family Dinner"],
+        "prep": "40",
+        "difficulty": "Medium",
+        "ingredients": [
+          { "qty": "0.17", "item": "lb Ground Beef" },
+          { "qty": "0.17", "item": "whole Onion (diced)" },
+          { "qty": "0.50", "item": "clove(s) Garlic (minced)" },
+          { "qty": "0.17", "item": "can Kidney Beans (drained)" },
+          { "qty": "0.17", "item": "can Black Beans (drained)" },
+          { "qty": "0.17", "item": "can Diced Tomatoes" },
+          { "qty": "0.17", "item": "cup(s) Beef Broth" },
+          { "qty": "0.33", "item": "tbsp Chili Powder" },
+          { "qty": "0.17", "item": "tsp Cumin" },
+          { "qty": "0.17", "item": "tsp Paprika" },
+          { "qty": "0.17", "item": "tsp Salt" }
+        ]
+      },
+  
+      {
+        "id": "margherita-pizza",
+        "title": "Classic Margherita Pizza",
+        "description": "A simple and delicious pizza topped with fresh mozzarella, basil, and a vibrant tomato sauce.",
+        "image": "images/margherita.jpeg",
+        "details": "test",
+        "instructions": "Preheat oven to 500°F (260°C). Stretch dough, top with sauce and mozzarella, bake 10–12 minutes, garnish with fresh basil.",
+        "occasion": ["Family Dinner", "Gameday"],
+        "prep": "25",
+        "difficulty": "Medium",
+        "ingredients": [
+          { "qty": "0.50", "item": "lb Pizza Dough" },
+          { "qty": "0.25", "item": "cup(s) Tomato Sauce" },
+          { "qty": "4.00", "item": "oz Fresh Mozzarella (sliced)" },
+          { "qty": "0.50", "item": "tbsp Olive Oil" },
+          { "qty": "4.00", "item": "leaves Fresh Basil" }
+        ]
+      },
+  
+      {
+        "id": "chicken-burrito-bowl",
+        "title": "Chicken Burrito Bowl",
+        "description": "A Chipotle-style burrito bowl loaded with grilled chicken, rice, beans, veggies, and salsa.",
+        "image": "images/burrito-bowl.jpg",
+        "details": "test",
+        "instructions": "Grill chicken, cook rice, heat beans, prep toppings, assemble bowls.",
+        "occasion": ["Healthy", "Meal Prep"],
+        "prep": "30",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "1.00", "item": "piece(s) Chicken Breast" },
+          { "qty": "1.50", "item": "cup(s) Cooked Rice" },
+          { "qty": "0.50", "item": "can Black Beans" },
+          { "qty": "0.50", "item": "cup(s) Corn" },
+          { "qty": "1.00", "item": "cup(s) Shredded Lettuce" },
+          { "qty": "0.50", "item": "cup(s) Pico de Gallo" },
+          { "qty": "0.50", "item": "cup(s) Shredded Cheese" },
+          { "qty": "0.50", "item": "tsp Salt (for seasoning chicken)" },
+          { "qty": "0.50", "item": "tsp Chili Powder (optional)" }
+        ]
+      },
+  
+      {
+        "id": "creamy-tomato-soup",
+        "title": "Creamy Tomato Basil Soup",
+        "description": "A silky, flavorful tomato soup with garlic, onions, cream, and fresh basil.",
+        "image": "images/tomato-soup.jpg",
+        "details": "test",
+        "instructions": "Sauté onions and garlic, add tomatoes and broth, simmer, blend, add cream and basil.",
+        "occasion": ["Cold Weather", "Comfort"],
+        "prep": "30",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.25", "item": "can Crushed Tomatoes" },
+          { "qty": "0.25", "item": "whole Onion (diced)" },
+          { "qty": "0.75", "item": "clove(s) Garlic (minced)" },
+          { "qty": "0.50", "item": "cup(s) Vegetable Broth" },
+          { "qty": "0.125", "item": "cup(s) Heavy Cream" },
+          { "qty": "0.125", "item": "cup(s) Fresh Basil (chopped)" },
+          { "qty": "0.50", "item": "tbsp Olive Oil" },
+          { "qty": "0.125", "item": "tsp Salt" },
+          { "qty": "0.125", "item": "tsp Black Pepper" }
+        ]
+      },
+  
+      {
+        "id": "smashed-potatoes",
+        "title": "Crispy Smashed Potatoes",
+        "description": "Golden, crispy smashed potatoes roasted with garlic, herbs, and olive oil.",
+        "image": "images/smashed-potatos.jpg",
+        "details": "test",
+        "instructions": "Boil potatoes until tender, smash, drizzle with oil and seasoning, bake until crispy.",
+        "occasion": ["Side Dish", "Comfort"],
+        "prep": "35",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.38", "item": "lb Baby Potatoes" },
+          { "qty": "0.75", "item": "tbsp Olive Oil" },
+          { "qty": "0.25", "item": "tsp Garlic Powder" },
+          { "qty": "0.25", "item": "tsp Rosemary" },
+          { "qty": "0.25", "item": "tsp Salt" }
+        ]
+      },
+  
+      {
+        "id": "chicken-fried-rice",
+        "title": "Chicken Fried Rice",
+        "description": "A quick and satisfying fried rice loaded with tender chicken, vegetables, and savory soy sauce.",
+        "image": "images/fried-rice.jpg",
+        "details": "test",
+        "instructions": "Cook chicken, add vegetables, scramble eggs, add rice and sauces, stir-fry until combined.",
+        "occasion": ["Quick", "Meal Prep"],
+        "prep": "20",
+        "difficulty": "Easy",
+        "ingredients": [
+          { "qty": "0.25", "item": "piece Chicken Breast (diced)" },
+          { "qty": "0.75", "item": "cup(s) Cooked Rice" },
+          { "qty": "0.50", "item": "cup(s) Frozen Mixed Vegetables" },
+          { "qty": "0.50", "item": "whole Egg(s)" },
+          { "qty": "0.75", "item": "tbsp Soy Sauce" },
+          { "qty": "0.25", "item": "tsp Sesame Oil" },
+          { "qty": "0.25", "item": "tbsp Vegetable Oil" }
+        ]
+      }
     ]
-}
+  }
+  
