@@ -122,7 +122,7 @@
         "id": "margherita-pizza",
         "title": "Classic Margherita Pizza",
         "description": "A simple and delicious pizza topped with fresh mozzarella, basil, and a vibrant tomato sauce.",
-        "image": "images/margherita.jpeg",
+        "image": "images/margherita-pizza.jpeg",
         "details": "test",
         "instructions": "Preheat oven to 500°F (260°C). Stretch dough, top with sauce and mozzarella, bake 10–12 minutes, garnish with fresh basil.",
         "occasion": ["Family Dinner", "Gameday"],
